@@ -1,0 +1,10 @@
+<h1> The game started!</h1>
+
+<p>Now you have 10 boxes, please select one box you like to keep</p>
+<P>{{.box}}</P>
+<form action="/pickstage" method="POST">
+    <input type="number" name="luckybox"">
+    <button type="submit">
+        Submit my decision
+    </button>
+</form>
